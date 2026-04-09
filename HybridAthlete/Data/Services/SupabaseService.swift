@@ -9,8 +9,8 @@ class SupabaseService {
     static let shared = SupabaseService()
 
     // MARK: - Configuration
-    private let supabaseURL = "YOUR_SUPABASE_URL"
-    private let supabaseAnonKey = "YOUR_SUPABASE_ANON_KEY"
+    private let supabaseURL = "https://fiybgplahndbuahwyrjm.supabase.co"
+    private let supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpeWJncGxhaG5kYnVhaHd5cmptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU3MjY4MzgsImV4cCI6MjA5MTMwMjgzOH0.HfUmZ1dvb-wy-YnXH-CqkCIYsISeJYWRoboGKpNceqM"
 
     private var accessToken: String?
     private var refreshToken: String?
